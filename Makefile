@@ -8,7 +8,7 @@ help:
 
 
 .PHONY: browser
-## browser
+## browser example from the theia repo with no plugins
 browser: examples/browser/src-gen
 	cd examples/browser && yarn start
 
